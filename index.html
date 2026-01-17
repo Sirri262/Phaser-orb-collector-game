@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Orb Collector (Phaser)</title>
+    <style>
+      html, body { margin: 0; padding: 0; background: #0b1020; height: 100%; }
+      #game { display: grid; place-items: center; height: 100%; }
+      canvas { border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+      .hint {
+        position: fixed; left: 16px; bottom: 14px;
+        color: rgba(255,255,255,.75); font-family: system-ui, Arial;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div class="hint">Kontrol: Ok tuşları / WASD • Restart: R</div>
+
+    <script src="https://unpkg.com/phaser@3/dist/phaser.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

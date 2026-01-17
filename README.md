@@ -49,4 +49,4 @@ Web deployment with GitHub Pages
 
 ## 📌Author
 
-Sirri262
+Sirri
